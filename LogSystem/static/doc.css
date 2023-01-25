@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 .main-img{
+    margin: 10px;
+    width: 500px; 
+    height: 500px;  
+}
+.container1 .main-img img{
+    width: 400px;
+    height: 400px;
+}
+.container1 .main-div{
+    background-color:rgb(104, 135, 213);
+    margin: 10px;
+    width: 70vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.container1 .main-div h1{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+}
+
+.container1 .main-div .main-f{
+    margin: 10px;
+    /*background-color: bisque;*/
+}
+
+.container1 .main-div .main-f .box{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.container1 .main-div .main-f .box label{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    margin:  3px;
+
+
+}
+
+.container1 .main-div .main-f .box input{
+    font-size: 16px;
+    padding: 5px;
+    margin: 2px 0px;
+    border-radius: 5px;
+    border: 0.3px solid #777;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container1 .main-div .main-f .box select{
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 50px;
+    border: 0.3px solid #777;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container1 .main-div .main-f .box .div-check{
+    font-size: 17px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    display: flex;
+    
+}
+
+.container1 .main-div .main-f .box .div-check h4{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.div-btn{
+   
+    padding: 8px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin: 5px 5px ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.container1 .main-div .main-f .box .div-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: azure;
+}
+

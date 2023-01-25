@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    /*background-color: aquamarine;*/
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(253, 227, 227, 0.842);
+}
+
+.container1 .main-div{
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(192, 136, 245);
+    border: 0.5px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 20px;
+}
+
+.main-div h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 400px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-div .main-f{
+    margin: auto;
+    padding: 8px;
+    
+}
+.main-div .main-f .box{
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    margin: auto;
+    /*background-color: chartreuse;*/
+}
+
+
+.main-div .main-f .box label{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px;
+    font-family: 'Quicksand', sans-serif; font-family: 'Quicksand', sans-serif;
+}
+/*.main-div .main-f .box label i{
+    margin: 5px;
+}
+*/
+.main-div .main-f .box input{
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    border-radius: 50px;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-flex;
+    padding: 5px 5px;
+}
+
+.main-div .main-f .box select{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #eeec7c;
+    padding: 5px 0px;
+}
+
+.main-div .main-f .box select option{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px 0px;
+}
+
+.main-div .main-f .box .div-btn{
+    width:  150px;
+    margin: auto;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+}
+.main-div .main-f .box .div-btn button{
+    font-weight: 500;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: aquamarine;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+    padding: 8px;
+    border: none;
+}
+/*.box i{
+    padding: 0 12px;
+    width: 23px;
+    text-align: center;
+}*/
+.div-check{
+    display: block;
+    position: relative;
+    padding: 10px 0px;
+    margin: 0px 0px ;
+    cursor: pointer;
+}
+.div-check h4{
+    margin: 0px 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.div-check input{
+    position: absolute;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 5px;
+    
+}
+
+/*.main-div .main-f .box .div-check{
+    font-size: 16px;
+    font-weight: 500; 
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}*/
+
+.main-div .main-f .box .div-btn button:hover{
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}

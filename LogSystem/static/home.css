@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-div1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    grid-template-columns: auto auto;
+}
+
+.main-div1 .reg-div{
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.main-div1 .reg-div h1{
+    text-align: center;
+    
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(195, 165, 122);
+    display: block;
+    position: absolute;
+}
+
+.navbar ul{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: blueviolet;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.main-div1 .sub-1{
+    width: auto;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.main-div1 .sub-1 span{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.main-div1 .sub-2{
+    width: auto;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.main-div1 .sub-2 span{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-div1 .sub-1 img{
+    width: 100px;
+    padding: 10px;
+    align-items: center;
+}
+.main-div1 .sub-2 img{
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+}
+
+.head .log-div{
+    /*background-color: brown;*/
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+button {
+    padding: 4px 5px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+    border: none;
+}
+.btn{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    align-content: space-around;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}

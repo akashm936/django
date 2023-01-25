@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(174, 247, 253);
+    padding: 20px;
+    align-items: center;
+}
+
+.main-login .log-box{
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: bisque;
+    margin: 100px auto;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(44, 44, 44, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.main-login .log-box .main-form h1{
+    font-size: 2.5rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+
+}
+
+.main-login .log-box .main-form{
+    display: flex;
+    max-width: 230px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+}
+
+.main-form{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.main-form label{
+    font-size: 20px;   
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.main-form input{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border: 1px solid rebeccapurple;
+    margin: 10px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-form button{
+    font-size: 14px;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 5px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-form form button{
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+

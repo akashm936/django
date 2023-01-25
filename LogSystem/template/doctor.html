@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SignUp As Doctor </title>
+    <link rel="stylesheet" href="/static/doc.css">
+    <link rel="stylesheet" href="/static/home.css">
+</head>
+
+<body>
+    {% include "navbar.html" %}
+    <div class="container1">
+        <div class="main-img">
+            <img src="/static/register.jpg" alt="">
+        </div>
+        <div class="main-div">
+            <h1>Doctor SignUp Form</h1>
+        <form action="doctor" method="POST" >
+            {% csrf_token %}
+            <div class="main-f">
+                <div class="box">
+                    <!--<i class="fa fa-user"></i>-->
+                    <label for="">Enter Your name</label>
+                    <input type="text" name="fname" alt="lname" placeholder="Enter your name">
+                    
+                    <label for="">Enter  your last Name</label>
+                    <input type="text" name="lname" alt="lname" placeholder="Enter last Name">
+                    
+                    <label for="">Create User Name</label>
+                    <input type="text" name="uname" alt="Uname" placeholder="Enter User Name">
+
+                    <label for="">Enter password</label>
+                    <input type="text" name="password" id="password" placeholder="Password">
+                    
+                    <label for="">Confirm password</label>
+                    <input type="cpassword" name="cpassword" id="cpassword" placeholder="Confirm Password">
+
+                    <label for="">Enter your Email</label>
+                    <input type="email" name="email" alt="email" placeholder="Enter Your Email">
+
+                    <label for="">Enter your Address</label>
+                    <input type="text" name="address" alt="address" placeholder="Enter Your Address">
+                    
+                    <label for="">City</label>
+                    <input type="text" name="city" alt="city" placeholder="Enter Your City">
+                    
+                    <label for="">State</label>
+                    <input type="text" name="state" alt="state" placeholder="Enter Your State">
+                    
+                    <label for="">Pincode</label>
+                    <input type="number" name="pincode" alt="pincode" placeholder="Enter Your Pincode">
+
+              <!--     <div class="div-check">
+                        <input type = "checkbox" class="check"><h4>send whatsapp message for work?</h4>
+                        <input type="checkbox" class="check"><h4>term & condition </h4>
+            --> 
+                    </div>
+                    <div class="div-btn"> 
+                        <input type="submit" class="btn" value="register"/>
+                    </div>
+                
+                </div>
+            </div>
+        </form>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
